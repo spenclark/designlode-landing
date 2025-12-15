@@ -83,11 +83,11 @@ export default function Contact() {
                     Email
                   </p>
                   <a
-                    href="mailto:hello@designlode.com"
+                    href="mailto:spencer@lodeterminal.com"
                     className="text-sm text-[#C9A961] hover:underline"
                     style={{ fontFamily: "Inter, sans-serif" }}
                   >
-                    hello@designlode.com
+                    spencer@lodeterminal.com
                   </a>
                 </div>
               </div>
