@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "react-router dev",
 		"build": "react-router build",
-		"postbuild": "node scripts/copy-api.js",
+		"preview": "react-router preview",
 		"typecheck": "react-router typegen && tsc --noEmit"
 	},
 	"dependencies": {
