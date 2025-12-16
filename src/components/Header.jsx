@@ -6,7 +6,7 @@ export default function Header() {
         style={{ fontFamily: "Inter, sans-serif" }}
       >
         {/* Logo */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3" style={{ fontFamily: "Inter, sans-serif" }}>
           <svg
             width="28"
             height="28"
@@ -15,17 +15,14 @@ export default function Header() {
             focusable="false"
           >
             <path
-              d="M20 50 L30 32 M34 26 L44 14"
+              d="M18 48 L30 34 L28 30 M36 24 L46 14"
               fill="none"
               stroke="#c9a961"
-              strokeWidth="4"
+              strokeWidth="5"
               strokeLinecap="round"
             />
           </svg>
-          <span
-            className="text-[#1A1814] text-lg font-medium tracking-tight"
-            style={{ fontFamily: "Inter, sans-serif" }}
-          >
+          <span className="text-[#1A1814] text-lg font-medium tracking-tight" style={{ fontFamily: "Inter, sans-serif" }}>
             Designlode
           </span>
         </div>

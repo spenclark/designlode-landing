@@ -10,7 +10,7 @@ function Header() {
         style={{ fontFamily: "Inter, sans-serif" }}
       >
         {/* Logo */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3" style={{ fontFamily: "Inter, sans-serif" }}>
           <svg
             width="28"
             height="28"
@@ -19,20 +19,20 @@ function Header() {
             focusable="false"
           >
             <path
-              d="M20 50 L30 32 M34 26 L44 14"
+              d="M18 48 L30 34 L28 30 M36 24 L46 14"
               fill="none"
               stroke="#c9a961"
-              strokeWidth="4"
+              strokeWidth="5"
               strokeLinecap="round"
             />
           </svg>
-          <span className="text-[#1A1814] text-lg font-medium tracking-tight">
+          <span className="text-[#1A1814] text-lg font-medium tracking-tight" style={{ fontFamily: "Inter, sans-serif" }}>
             Designlode
           </span>
         </div>
 
         {/* Navigation */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-8" style={{ fontFamily: "Inter, sans-serif" }}>
           <a
             href="#services"
             className="text-[#2D2A24] text-sm hover:text-[#C9A961] transition-colors font-medium"
@@ -583,7 +583,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           {/* Left - Logo and tagline */}
           <div>
-            <div className="flex items-center gap-3 mb-2">
+            <div className="flex items-center gap-3 mb-2" style={{ fontFamily: "Inter, sans-serif" }}>
               <svg
                 width="22"
                 height="22"
@@ -592,10 +592,10 @@ function Footer() {
                 focusable="false"
               >
                 <path
-                  d="M20 50 L30 32 M34 26 L44 14"
+                  d="M18 48 L30 34 L28 30 M36 24 L46 14"
                   fill="none"
                   stroke="#c9a961"
-                  strokeWidth="4"
+                  strokeWidth="5"
                   strokeLinecap="round"
                 />
               </svg>
