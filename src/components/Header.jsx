@@ -14,12 +14,39 @@ export default function Header() {
             aria-hidden="true"
             focusable="false"
           >
+            <defs>
+              <linearGradient id="veinGoldHeader" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#f7e6b5" />
+                <stop offset="45%" stopColor="#e6c46b" />
+                <stop offset="100%" stopColor="#c08f2f" />
+              </linearGradient>
+              <filter id="veinGlowHeader" x="-10%" y="-10%" width="120%" height="120%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="1.1" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
             <path
-              d="M18 48 L30 34 L28 30 M36 24 L46 14"
+              d="M8 50 C16 44 14 32 24 30 C34 28 40 20 48 16 C56 12 56 26 46 32
+                 C36 38 36 52 22 54 C14 55 12 50 12 44
+                 M20 42 C26 38 28 30 34 26"
               fill="none"
-              stroke="#c9a961"
-              strokeWidth="5"
+              stroke="url(#veinGoldHeader)"
+              strokeWidth="5.5"
               strokeLinecap="round"
+              strokeLinejoin="round"
+              filter="url(#veinGlowHeader)"
+            />
+            <path
+              d="M10 48 C18 42 20 34 30 32 C38 30 46 22 54 18"
+              fill="none"
+              stroke="#fff7d6"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              opacity="0.9"
             />
           </svg>
           <span className="text-[#1A1814] text-lg font-medium tracking-tight" style={{ fontFamily: "Inter, sans-serif" }}>
