@@ -11,7 +11,21 @@ function Header() {
       >
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 bg-[#C9A961] rounded-sm"></div>
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 64 64"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M20 50 L30 32 M34 26 L44 14"
+              fill="none"
+              stroke="#c9a961"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+          </svg>
           <span className="text-[#1A1814] text-lg font-medium tracking-tight">
             Designlode
           </span>
@@ -570,7 +584,21 @@ function Footer() {
           {/* Left - Logo and tagline */}
           <div>
             <div className="flex items-center gap-3 mb-2">
-              <div className="w-6 h-6 bg-[#C9A961] rounded-sm"></div>
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 64 64"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  d="M20 50 L30 32 M34 26 L44 14"
+                  fill="none"
+                  stroke="#c9a961"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                />
+              </svg>
               <span className="text-[#1A1814] font-serif text-base font-medium tracking-tight">
                 Designlode
               </span>

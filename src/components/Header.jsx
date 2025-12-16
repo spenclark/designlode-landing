@@ -7,8 +7,25 @@ export default function Header() {
       >
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 bg-[#C9A961] rounded-sm"></div>
-          <span className="text-[#1A1814] font-serif text-lg font-medium tracking-tight">
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 64 64"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M20 50 L30 32 M34 26 L44 14"
+              fill="none"
+              stroke="#c9a961"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+          </svg>
+          <span
+            className="text-[#1A1814] text-lg font-medium tracking-tight"
+            style={{ fontFamily: "Inter, sans-serif" }}
+          >
             Designlode
           </span>
         </div>
