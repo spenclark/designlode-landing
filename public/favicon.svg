@@ -14,9 +14,9 @@
     </filter>
   </defs>
   <path
-    d="M10 50 C18 46 22 38 28 36 C34 34 40 26 54 14
-       M24 46 C30 42 34 34 36 26
-       M36 40 C42 36 48 28 50 20"
+    d="M12 50 C18 42 24 32 28 24 C32 18 40 16 48 18
+       C54 20 52 28 46 32 C38 36 34 44 28 50
+       C22 56 14 54 14 46"
     fill="none"
     stroke="url(#veinGold)"
     stroke-width="6"
@@ -25,7 +25,7 @@
     filter="url(#veinGlow)"
   />
   <path
-    d="M12 48 C20 44 24 38 30 34 C36 32 42 24 52 16"
+    d="M14 48 C20 40 26 30 32 26 C38 22 46 22 50 20"
     fill="none"
     stroke="#fff7d6"
     stroke-width="2"

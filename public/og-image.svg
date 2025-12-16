@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Designlode">
+  <defs>
+    <linearGradient id="veinGoldOg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7e6b5" />
+      <stop offset="45%" stop-color="#e6c46b" />
+      <stop offset="100%" stop-color="#c08f2f" />
+    </linearGradient>
+    <filter id="veinGlowOg" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="#F5F3EF" />
+  <g transform="translate(420 150) scale(6)">
+    <path
+      d="M12 50 C18 42 24 32 28 24 C32 18 40 16 48 18
+         C54 20 52 28 46 32 C38 36 34 44 28 50
+         C22 56 14 54 14 46"
+      fill="none"
+      stroke="url(#veinGoldOg)"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      filter="url(#veinGlowOg)"
+    />
+    <path
+      d="M14 48 C20 40 26 30 32 26 C38 22 46 22 50 20"
+      fill="none"
+      stroke="#fff7d6"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      opacity="0.9"
+    />
+  </g>
+  <text x="600" y="500" text-anchor="middle" font-family="Inter, 'Libre Baskerville', sans-serif" font-size="64" fill="#1A1814" letter-spacing="1">
+    Designlode
+  </text>
+</svg>
+

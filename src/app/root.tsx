@@ -468,6 +468,14 @@ export function Layout({ children }: { children: ReactNode }) {
         <Links />
         <script type="module" src="/src/__create/dev-error-overlay.js"></script>
         <link rel="icon" href="/favicon.svg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Designlode" />
+        <meta property="og:description" content="Web design for mineral, mining, and energy companies." />
+        <meta property="og:image" content="/og-image.svg" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Designlode" />
+        <meta property="twitter:description" content="Web design for mineral, mining, and energy companies." />
+        <meta property="twitter:image" content="/og-image.svg" />
         {LoadFontsSSR ? <LoadFontsSSR /> : null}
       </head>
       <body>
