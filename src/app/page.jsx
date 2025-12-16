@@ -5,11 +5,14 @@ import { useState } from "react";
 function Header() {
   return (
     <header className="bg-[#F5F3EF] border-b border-[#E0DDD6] px-6 py-5">
-      <div className="max-w-[1100px] mx-auto flex items-center justify-between">
+      <div
+        className="max-w-[1100px] mx-auto flex items-center justify-between"
+        style={{ fontFamily: "Inter, sans-serif" }}
+      >
         {/* Logo */}
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 bg-[#C9A961] rounded-sm"></div>
-          <span className="text-[#1A1814] font-serif text-lg font-medium tracking-tight">
+          <span className="text-[#1A1814] text-lg font-medium tracking-tight">
             Designlode
           </span>
         </div>

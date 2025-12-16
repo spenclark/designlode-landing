@@ -6,4 +6,7 @@
   input, textarea, select, button {
     @apply outline-none focus:outline-none;
   }
+  body {
+    font-family: 'Inter', sans-serif;
+  }
 }
