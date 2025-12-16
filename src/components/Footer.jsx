@@ -34,9 +34,9 @@ export default function Footer() {
                     </filter>
                   </defs>
                   <path
-                    d="M8 50 C16 44 14 32 24 30 C34 28 40 20 48 16 C56 12 56 26 46 32
-                       C36 38 36 52 22 54 C14 55 12 50 12 44
-                       M20 42 C26 38 28 30 34 26"
+                    d="M10 50 C18 46 22 38 28 36 C34 34 40 26 54 14
+                       M24 46 C30 42 34 34 36 26
+                       M36 40 C42 36 48 28 50 20"
                     fill="none"
                     stroke="url(#veinGoldFooter)"
                     strokeWidth="5.5"
@@ -45,7 +45,7 @@ export default function Footer() {
                     filter="url(#veinGlowFooter)"
                   />
                   <path
-                    d="M10 48 C18 42 20 34 30 32 C38 30 46 22 54 18"
+                    d="M12 48 C20 44 24 38 30 34 C36 32 42 24 52 16"
                     fill="none"
                     stroke="#fff7d6"
                     strokeWidth="2"
