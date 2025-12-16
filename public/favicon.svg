@@ -1,10 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Designlode">
+  <defs>
+    <linearGradient id="veinGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7e6b5" />
+      <stop offset="40%" stop-color="#e6c46b" />
+      <stop offset="100%" stop-color="#c08f2f" />
+    </linearGradient>
+    <filter id="veinGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
   <path
-    d="M18 48 L30 34 L28 30 M36 24 L46 14"
+    d="M10 50 C18 46 22 38 28 36 C34 34 40 26 54 14
+       M24 46 C30 42 34 34 36 26
+       M36 40 C42 36 48 28 50 20"
     fill="none"
-    stroke="#c9a961"
-    stroke-width="5"
+    stroke="url(#veinGold)"
+    stroke-width="6"
     stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#veinGlow)"
+  />
+  <path
+    d="M12 48 C20 44 24 38 30 34 C36 32 42 24 52 16"
+    fill="none"
+    stroke="#fff7d6"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.8"
   />
 </svg>
 
