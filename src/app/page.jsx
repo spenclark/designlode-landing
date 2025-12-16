@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import LogoMark from "../components/LogoMark";
 
 function Header() {
   return (
@@ -11,21 +12,7 @@ function Header() {
       >
         {/* Logo */}
         <div className="flex items-center gap-3" style={{ fontFamily: "Inter, sans-serif" }}>
-          <svg
-            width="28"
-            height="28"
-            viewBox="0 0 64 64"
-            aria-hidden="true"
-            focusable="false"
-          >
-            <path
-              d="M18 48 L30 34 L28 30 M36 24 L46 14"
-              fill="none"
-              stroke="#c9a961"
-              strokeWidth="5"
-              strokeLinecap="round"
-            />
-          </svg>
+          <LogoMark size={28} />
           <span className="text-[#1A1814] text-lg font-medium tracking-tight" style={{ fontFamily: "Inter, sans-serif" }}>
             Designlode
           </span>
@@ -584,21 +571,7 @@ function Footer() {
           {/* Left - Logo and tagline */}
           <div>
             <div className="flex items-center gap-3 mb-2" style={{ fontFamily: "Inter, sans-serif" }}>
-              <svg
-                width="22"
-                height="22"
-                viewBox="0 0 64 64"
-                aria-hidden="true"
-                focusable="false"
-              >
-                <path
-                  d="M18 48 L30 34 L28 30 M36 24 L46 14"
-                  fill="none"
-                  stroke="#c9a961"
-                  strokeWidth="5"
-                  strokeLinecap="round"
-                />
-              </svg>
+              <LogoMark size={22} />
               <span className="text-[#1A1814] font-serif text-base font-medium tracking-tight">
                 Designlode
               </span>
